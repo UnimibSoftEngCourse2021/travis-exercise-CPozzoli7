@@ -6,5 +6,5 @@ addons:
     organization: "unimibsoftengcourse2021"
     token:
       secure: $SONAR_TOKEN
-      script:
-        - mvn sonar:sonar
+script:
+  - mvn sonar:sonar
